@@ -46,16 +46,8 @@ Certifique-se de que a máquina possui instalados:
    python manage.py migrate
    ```
 
-5. Crie um superusuário para login na API (caso ainda não exista no banco):
-   ```powershell
-   python manage.py createsuperuser
-   ```
-   *Exemplo sugerido para a apresentação:*
-   * **Usuário:** `admin`
-   * **E-mail:** `admin@gaap.com`
-   * **Senha:** `admin123`
 
-6. Inicie o servidor Django:
+5. Inicie o servidor Django:
    ```powershell
    python manage.py runserver
    ```
