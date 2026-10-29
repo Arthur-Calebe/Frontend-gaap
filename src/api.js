@@ -1,7 +1,7 @@
 // src/api.js
 // Cliente de API para comunicação com o backend Django GAAP
 
-const API_BASE = '/api';
+const API_BASE = 'http://127.0.0.1:8000/api';
 
 export function getAuthCredentials() {
   const user = localStorage.getItem('gaap_auth_user') || 'admin';
